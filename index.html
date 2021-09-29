@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Agency website</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+   <!-- MEDIA-QUERIES LINK --> 
+    <link rel="stylesheet" href="css/media-queries.css?V=2"> 
+
+    <!-- ANIMATION AOS-CSS LINK -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+   <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/style.css?V=2">
+    
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+       <div class="container header-section">
+           <nav>
+               <!-- logo -->
+               <img src="./images/main-logo.png" alt="#" class="logo">
+
+               <!-- HAMBURGER MENU -->
+               <div class="hamburger" id="hamburger"></div>
+               
+
+               <!--NAVIGATION MENU  -->
+               <ul class="nav-ul" id="nav-ul">
+                   <i class="close" id="close"></i>
+                   <li><a href="#" class="current">home</a></li>
+                   <li><a href="#" class="nav-link">services</a></li>
+                   <li><a href="#" class="nav-link">about</a></li>
+                   <li><a href="#" class="nav-link">contact</a></li>
+                   <li><a href="#" class="nav-link">blog</a></li>
+               </ul> 
+
+               <i class=" search " id="search"></i>
+
+           </nav>
+       </div>
+    </header>
+
+    <!-- INTRO SECTION -->
+    <main>
+        <section class="intro-section">
+            <div class="container intro">
+
+           <!-- use css to add the background image because u want the image to
+        start from a particular position say 70% on the x axis -->
+
+        <div class="intro-text border-line" id="intro-text">
+            <h1 class="u-mb-medium" id="text">We're a digital <span id="span">agency.</span></h1>
+            <a href="#" class="btn">getting started</a>
+        </div>
+
+            <div class=" cards">
+                <!-- card 1 -->
+                <div class="card-1" data-aos="fade-right">
+                    <i class="chart-bar" id="chart-bar"></i>
+                    <h3 class="u-mb-large ">future vision</h3>
+                    <p>
+                        it is a long established fact that a reader will be distracted by the readable content of a page.
+
+
+                    </p>
+                </div>
+                <!-- card 2 -->
+                <div class="card-2">
+                    <i class="rocket" id="rocket"></i>
+                    <h3 class="u-mb-large line-2">product design</h3>
+                    <p>
+                        There are many variations of the passages of available, but the majority alteration in some form.
+
+
+                    </p>
+                </div>
+                <!-- card 3 -->
+                <div class="card-3" data-aos="fade-left" id="card-3">
+                    <i class="chart-pie" id="chart-pie"></i>
+                    <h3 class="u-mb-large line-2">great solution</h3>
+                    <p>
+                        The generated Lorem Ipsum is therefore always free from repitition, injected humor.
+
+
+                    </p>
+                </div>
+            </div>
+            
+            </div>
+
+        </section>
+        <section class="service-section">
+            <div class="container service">
+
+                <div class="border-line service-text" id="service-text">
+                    <h1>Services</h1>
+                    <p class="u-mb-large">we work with you, not for you</p>
+                </div>
+
+                <div class="service-box" data-aos="fade-up">
+
+                    <div class="box box-1">
+                        <i class="bookmark" id="bookmark"></i>
+                        <h3>digital strategy</h3>
+                        <i class="arrow-right" id="arrow-right"></i>
+                    </div>
+
+                    <div class="box box-2">
+                        <i class="file-alt" id="file-alt"></i>
+                        <h3>UX design</h3>
+                        <i class="arrow-right" id="arrow-right"></i>
+                    </div>
+
+                    <div class="box box-3">
+                        <i class="edit" id="edit"></i>
+                        <h3>product design</h3>
+                        <i class="arrow-right" id="arrow-right"></i>
+                    </div>
+
+                    <div class="box box-1">
+                        <i class="bookmark" id="bookmark"></i>
+                        <h3>content strategy</h3>
+                        <i class="arrow-right" id="arrow-right"></i>
+                    </div>
+
+                    <div class="box box-2">
+                        <i class="file-alt" id="file-alt"></i>
+                        <h3>brand identity</h3>
+                        <i class="arrow-right" id="arrow-right"></i>
+                    </div>
+
+                    <div class="box box-3">
+                        <i class="edit" id="edit"></i>
+                        <h3>media planning</h3>
+                        <i class="arrow-right" id="arrow-right"></i>
+                    </div>
+
+                </div>
+
+
+                
+            </div>
+
+            <div class="border"></div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+
+        <section class="about-section">
+            <div class="container about">
+
+                <div class="border-line">
+                    <h1>About</h1>
+                    <p class="u-mb-medium">we're more than a digital agency</p>
+                </div>
+
+                <div class="about-image " data-aos="fade-up">
+
+                    <div class="image-1 all-images">
+                        <img src="./images/about_01.jpg" alt="image">
+                        <div class="image-text">
+                            <h3>Teamwork</h3>
+                            <p>Commited and Creative</p>
+                        </div>
+                    </div>
+                    <div class="image-2 all-images">
+                        <img src="./images/about_02.jpg" alt="image">
+                        <div class="image-text">
+                            <h3>Philosophy</h3>
+                            <p>Trust Pays off</p>
+                        </div>
+                    </div>
+                    <div class="image-3 all-images">
+                        <img src="./images/about_03.jpg" alt="image">
+                        <div class="image-text">
+                            <h3>Office</h3>
+                            <p>Ikeja Lagos</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="about-text">
+
+                <div class="about-text-1">
+                    <h2>Who we are</h2>
+                    <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward will have multiple touchpoints for offshoring.</p>
+                </div>
+
+                <div class="about-text-2">
+                    <h2>Our Philosophy</h2>
+                    <p>A new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time.</p>
+                </div>
+
+                <div class="about-text-3">
+                    <h2>How we work</h2>
+                    <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
+
+                </div>
+
+            </div>
+
+            </div>
+
+            <div class="border"></div>
+        </section>
+
+        <!-- NEWS SECTION -->
+
+        <section class="news-section">
+            <div class="container news">
+
+                <div class="news-text">
+                    <h1>
+                        latest news
+                    </h1>
+                    <p>checkout some of our thinking</p>
+                </div>
+
+                <div class="news-box" data-aos="fade-up">
+
+                    <div class="box">
+
+                    <div class="images">
+                        <img src="./images/03-min.jpg" alt="image">
+                    </div>
+
+                    <div class="box-text">
+                        <h3>design/ux</h3>
+                        <p>How to drive your customer experience</p>
+                        <i class="arrow-right" id="arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+
+                    <div class="images">
+                        <img src="./images/01-min.jpg" alt="images">
+                    </div>
+
+                    <div class="box-text">
+                        <h3>design/ux</h3>
+                        <p>How to drive your customer experience</p>
+                        <i class="arrow-right" id="arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+
+                    <div class="images">
+                        <img src="./images/04-min.jpg" alt="images">
+                    </div>
+
+                    <div class="box-text">
+                        <h3>design/ux</h3>
+                        <p>How to drive your customer experience</p>
+                        <i class="arrow-right" id="arrow-right"></i>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="enquiry-section">
+            <div class="container enquiry">
+                <div class="enquiry-items">
+
+                    <div class="enquiry-icons u-mb-large">
+                       <div class="block-1"> <i class="facebook " id="facebook"></i></div>
+                        <div class="block-2"><i class="twitter " id="twitter"></i></div>
+                        <div class="block-3"><i class="instagram " id="instagram"></i></div>
+                        <div class="block-4"><i class="git-hub " id="git-hub"></i></div>  
+                    </div>
+
+                    <div class="heading u-mb-large">
+                        <h1>let's talk?</h1>
+                    </div>
+
+                    <div class="bttn">
+                        <a href="#" class="btn">make an enquiry!</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <section class="footer-section">
+        <div class="container footer">
+            <p>2021 &copy;EzinneOkor.All Rights Reserved</p>
+        </div>
+    </section>
+
+    </footer>
+
+    <!-- MODAL SECTION is a dialog box/pop up window that is displayed on top of the current page-->
+    
+    <div class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <form action="">
+                <input type="text" placeholder="search">
+                <i class="search"></i>
+            </form>
+        </div>
+    </div>
+
+    
+    <!-- ANIMATION AOS-SCRIPT LINK -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- JAVASCRIPT LINK -->
+    <script src="script.js"></script>
+</body>
+</html>
